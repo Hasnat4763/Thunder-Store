@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html id="html" lang="en">
+<head>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>War Thunder Store</title>
+
+</head>
+<body>
+<div class="nav">
+    <h3>Thunder Store</h3>
+        <div class="nav-links">
+            <li>
+                <a href="index.html">Home</a>
+                <a href="order.html">Cart</a>
+            </li>
+            <p id="cartitem">0</p>
+        </div>
+</div>
+<div class="introduction">
+    <img src="https://fontmeme.com/permalink/250627/b8ab6b293018a351b6116b66f797d8f1.png" alt="logo">
+    
+    <h3>
+        Get your favourite tanks, aircrafts or ships only from us.
+    </h3>
+
+    <p>
+        Everyone has rights to buy tanks, aircrafts and ships.
+        <br>
+        We also sell Classified Documents which you can leak on War Thunder forums.
+    </p>
+</div>
+
+<div class="list">
+    <h3>
+        Our stocks
+    </h3>
+    <p>
+        We have many premium tanks, aircrafts and ships in our stock which definitely doesn't make you bankcrupt.
+    </p>
+    
+        <div class="aircrafts">
+        <div>
+        <p>
+            F-2A ADTW
+        </p>
+        <p class="price">
+            price: $79.99
+            <br>
+            <img src="https://static-store.gaijin.net/img/screenshots/7D030FA9-81BE-448D-9911-73F12439C5FE/big/4.jpg?v=20250626_130320">
+        </p>
+        <button onclick="cartupdate('F-2A ADTW', 79.99)">Add to Cart</button>
+        <button onclick="removefromcart('F-2A ADTW', 79.99)">Remove From Cart</button>
+        </div>
+        <div>
+        <p>
+            Mig-29 Sniper
+        </p>
+        <p class="price">
+            price: $79.99
+            <br>
+            <img src="https://static-store.gaijin.net/img/screenshots/F9D534D1-84A4-4809-A970-AF076775F2EE/big/1.jpg?v=20250626_130320">    
+        </p>
+        <button onclick="cartupdate('Mig-29 Sniper', 79.99)">Add to Cart</button>
+        <button onclick="removefromcart('Mig-29 Sniper', 79.99)">Remove From Cart</button>
+        </div>
+        <div>
+            <p>
+                F/A-18C Hornet
+            </p>
+            <p class="price">
+                price: $79.99
+                <br>
+                <img src="https://static-store.gaijin.net/img/screenshots/35213D88-27E4-4CEC-BA8B-77239CBD892A/big/1.jpg?v=20250626_130320">
+            </p>
+            <button onclick="cartupdate('F/A-18C Hornet', 79.99)">Add to Cart</button>
+            <button onclick="removefromcart('F/A-18C Hornet', 79.99)">Remove From Cart</button>
+        </div>
+        </div>
+
+        <div class="tanks">
+        <div>
+            <p>
+                Leopard 2 (OTCo)
+            </p>
+            <p class="price">
+                price: $69.99
+                <br>
+                <img src="https://static-store.gaijin.net/img/screenshots/4C6D2F50-97F6-4E6E-9DEC-A49DB6F6B8E3/big/1.jpg?v=20250626_130320">
+           </p>
+           <button onclick="cartupdate('Leopard 2 (OTCo)', 69.99)">Add to Cart</button>
+           <button onclick="removefromcart('Leopard 2 (OTCo)', 69.99)">Remove From Cart</button>
+        </div>
+        <div>
+            <p>
+                C1 Ariete “Certezza”
+            </p>
+            <p class="price">
+                price: $69.99
+                <br>
+                <img src="https://static-store.gaijin.net/img/screenshots/2143D9F8-8362-4020-BB7F-33F34FCFC298/big/1.jpg?v=20250627_111808">
+            </p>
+            <button onclick="cartupdate('C1 Ariete “Certezza”', 69.99)">Add to Cart</button>
+            <button onclick="removefromcart('C1 Ariete “Certezza”', 69.99)">Remove From Cart</button>
+        </div>
+            <div>
+            <p>
+                Al-Khalid-I
+            </p>
+            <p class="price">
+                price: $69.99
+                <br>
+                <img src="https://static-store.gaijin.net/img/screenshots/0708A9E2-064E-4852-AB35-AEBF2E41D97B/big/1.jpg?v=20250627_111808">
+            </p>
+                <button onclick="cartupdate('Al-Khalid-I', 69.99)">Add to Cart</button>
+                <button onclick="removefromcart('Al-Khalid-I', 69.99)">Remove From Cart</button>
+            </div>
+        </div>
+        <div class="ships">
+            <div>
+                <p>
+                    KMS Gneisenau
+                </p>
+                <p class="price">
+                    price: $79.99
+                <br>
+                    <img src="https://static-store.gaijin.net/img/screenshots/7444549A-783E-4489-A761-359D5B89BF61/big/1.jpg?v=20250627_111808">
+                </p>
+                <button onclick="cartupdate('KMS Gneisenau', 79.99)">Add to Cart</button>
+                <button onclick="removefromcart('KMS Gneisenau', 79.99)">Remove From Cart</button>
+            </div>
+            <div>
+                <p>
+                    Project 69I Sevastopol
+                </p>
+                <p class="price">
+                    price: $79.99
+                <br>
+                <img src="https://static-store.gaijin.net/img/screenshots/6E14C768-18E7-4F3B-B798-6287C47AAE05/big/1.jpg?v=20250627_111808">
+                </p>
+                <button onclick="cartupdate('Project 69I Sevastopol', 79.99)">Add to Cart</button>
+                <button onclick="removefromcart('Project 69I Sevastopol', 79.99)">Remove From Cart</button>
+            </div>
+            <div>
+                <p>
+                    IJN Yamashiro
+                </p>
+                <p class="price">
+                    price: $35                
+                    <br>
+                    <img src="https://static-store.gaijin.net/img/screenshots/9E666785-6BF0-4A54-B915-FE924C5D3F02/big/1.jpg?v=20250627_111808">
+                </p>
+                <button onclick="cartupdate('IJN Yamashiro', 35)">Add to Cart</button>
+                <button onclick="removefromcart('IJN Yamashiro', 35)">Remove From Cart</button>
+            </div>
+        </div>
+        <div class="sikret_docs">
+            <div>
+                <p>
+                    Classified Documents Crate
+                    <br>
+                    Spin this crate to get a random classified document that you can leak on War Thunder forums.
+                    <br>
+                    Vehicles includes:
+                    F-22A, Su-57, T-90M, Leopard 2A7, Su-35 etc.
+                </p>
+                <p class="price">
+                    price: $420.69
+                    <br>
+                    <img src="https://i.imgflip.com/6rbu7b.jpg?a486000">
+                </p>
+                <button id="fbi" onclick="cartupdate('Classified Documents Crate', 420.69)">Add to Cart</button>
+                <button id="fbi" onclick="removefromcart('Classified Documents Crate', 420.69)">Remove From Cart</button>
+            </div>
+        </div>
+
+</div>
+
+<div class = "request" id = "request">
+    <div id ="req_1">
+    <h1>
+        Are we missing anything?
+    </h1>
+    <p>
+        Request it to us today and we will deliver it via KGB agents.
+    </p>
+    <div class ="req_form">
+    <input type="text" id="item_name" value="Item Name">
+    <input type="number" id="item_quantity" min="1" value="1">
+    <input type="email" id="email" placeholder="Your Email">
+    </div>
+    <button id="request_button">Request Item</button>
+    </div>
+    <p id="W"></p>
+</div>
+
+
+
+
+</div>
+<script src ="background.js"></script>
+</body>
+<footer>
+    2025 © From War Thunder Players to World of Tanks Players.
+</footer>
+</html>
+
